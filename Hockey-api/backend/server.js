@@ -14,7 +14,7 @@ app.get("/api", (req, res) => {
         name: "Rögle BK",
         city: "Ängelholm",
         founded: 1932,
-        logo: "src/assets/rögle.svg", // Rögle BK
+        logo: "/src/assets/rögle.svg", // Rögle BK
         colors: "#006633, #FFFFFF",
       },
       {
@@ -22,7 +22,7 @@ app.get("/api", (req, res) => {
         name: "Färjestad BK",
         city: "Karlstad",
         founded: 1932,
-        logo: "src/assets/färjestad.svg", // Färjestad BK
+        logo: "/src/assets/färjestad.svg", // Färjestad BK
         colors: "#006633, #FFCC00",
       },
       {
@@ -30,7 +30,7 @@ app.get("/api", (req, res) => {
         name: "Luleå HF",
         city: "Luleå",
         founded: 1977,
-        logo: "src/assets/luleå.svg", // Luleå HF
+        logo: "/src/assets/luleå.svg", // Luleå HF
         colors: "#FF0000, #FFFFFF",
       },
       {
@@ -38,7 +38,7 @@ app.get("/api", (req, res) => {
         name: "Skellefteå AIK",
         city: "Skellefteå",
         founded: 1921,
-        logo: "src/assets/saik.svg", // Skellefteå AIK
+        logo: "/src/assets/saik.svg", // Skellefteå AIK
         colors: "#FFCC00, #000000",
       },
       {
@@ -46,7 +46,7 @@ app.get("/api", (req, res) => {
         name: "HV71",
         city: "Jönköping",
         founded: 1971,
-        logo: "src/assets/hv71.svg", // HV71
+        logo: "/src/assets/hv71.svg", // HV71
         colors: "#0066CC, #FFCC00",
       },
       {
@@ -54,7 +54,7 @@ app.get("/api", (req, res) => {
         name: "Malmö Redhawks",
         city: "Malmö",
         founded: 1972,
-        logo: "src/assets/blö.svg", // Malmö Redhawks
+        logo: "/src/assets/blö.svg", // Malmö Redhawks
         colors: "#CC0000, #000000",
       },
       {
@@ -62,7 +62,7 @@ app.get("/api", (req, res) => {
         name: "Växjö Lakers",
         city: "Växjö",
         founded: 1997,
-        logo: "src/assets/lakers.svg", // Växjö Lakers
+        logo: "/src/assets/lakers.svg", // Växjö Lakers
         colors: "#0066CC, #FFFFFF",
       },
       {
@@ -70,7 +70,7 @@ app.get("/api", (req, res) => {
         name: "Örebro HK",
         city: "Örebro",
         founded: 1990,
-        logo: "src/assets/örebro.svg", // Örebro HK
+        logo: "/src/assets/örebro.svg", // Örebro HK
         colors: "#000000, #FF0000",
       },
       {
@@ -78,7 +78,7 @@ app.get("/api", (req, res) => {
         name: "Frölunda HC",
         city: "Gothenburg",
         founded: 1938,
-        logo: "src/assets/frölunda.svg", // Frölunda HC
+        logo: "/src/assets/frölunda.svg", // Frölunda HC
         colors: "#990000, #FFFFFF",
       },
       {
@@ -86,7 +86,7 @@ app.get("/api", (req, res) => {
         name: "Timrå IK",
         city: "Timrå",
         founded: 1938,
-        logo: "src/assets/timrå.svg", // Timrå IK
+        logo: "/src/assets/timrå.svg", // Timrå IK
         colors: "#CC0000, #FFFFFF",
       },
       {
@@ -94,7 +94,7 @@ app.get("/api", (req, res) => {
         name: "Leksands IF",
         city: "Leksand",
         founded: 1919,
-        logo: "src/assets/leksand.svg", // Leksands IF
+        logo: "/src/assets/leksand.svg", // Leksands IF
         colors: "#0066CC, #FFFFFF",
       },
       {
@@ -102,7 +102,7 @@ app.get("/api", (req, res) => {
         name: "Brynäs IF",
         city: "Gävle",
         founded: 1912,
-        logo: "src/assets/brynäs.svg", // Brynäs IF
+        logo: "/src/assets/brynäs.svg", // Brynäs IF
         colors: "#000000, #FFCC00",
       },
     ],

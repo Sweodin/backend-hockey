@@ -77,7 +77,7 @@ function App() {
       </button>
 
       <footer>
-        <p>© {new Date().getFullYear()} Swedish Hockey League Explorer</p>
+        <p> {new Date().getFullYear()} Swedish Hockey League Explorer</p>
       </footer>
     </div>
   );
